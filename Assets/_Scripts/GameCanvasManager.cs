@@ -19,6 +19,11 @@ public class GameCanvasManager : MonoBehaviour {
 
     public void RestartGame()
     {
+        SceneManager.LoadScene(1);
+    }
+
+    public void ExitGame()
+    {
         SceneManager.LoadScene(0);
     }
 }
